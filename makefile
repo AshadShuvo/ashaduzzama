@@ -3,7 +3,7 @@ CFLAGS = -O
 CC = gcc
 
 NumTest:main.o getop.o stack.o getch.o
-	$(CC) $(CFLAGS) -o Rafiul main.o getop.o stack.o getch.o
+	$(CC) $(CFLAGS) -o shuvo main.o getop.o stack.o getch.o
 main.o: main.c
 	$(CC) $(CFLAGS) -c main.c
 
